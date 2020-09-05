@@ -74,7 +74,11 @@
   // "telegram" => [
   //    "token" => "TOKEN"
   // ]
-
+  'web' => [
+    'matchingData' => [
+          'driver' => 'web',
+      ],
+  ],
 ];
 
  DriverManager::loadDriver(\BotMan\Drivers\Web\WebDriver::class);
