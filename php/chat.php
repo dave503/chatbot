@@ -140,7 +140,7 @@ $botman->hears('.*(Niveles de los cursos|Niveles|Cuantos niveles tienen los curs
 //Pregunta 3
 $botman->hears('.*(Precios|Aranceles|Cuento cuesta|Cuanto valen|cuantos cuesta|cuanto valen|precio|Precio|precios).*', function(BotMan $bot, $word){
 
-  $bot->reply('El curso tiene una inversión de $10 de matrícula (ahora es gratis por la pandemia), más $50 del nivel a cursar ($37 ahora por la pandemia), más $39 de libros que se utilizan en varios niveles del curso');
+  $bot->reply('El curso tiene una inversión de $10 de matrícula (ahora es gratis por la pandemia), más $50 del nivel a cursar ($37 ahora por la pandemia), más $39 de libros que se utilizan en varios niveles del curso.<br><a href ="http://www.ccsa.edu.sv/index.php/san-miguel/oferta-academica-sm" target="_blank">Mas información</a>');
 });
 
 //Pregunta 4
