@@ -7,16 +7,19 @@
     <title>Mi chatbot</title>
     <script src="js/widget.js"></script>
 </head>
-<body>
+<body style="background-repeat: no-repeat; background-size: auto;" background="http://www.ccsa.edu.sv/images/logowebsite.png">
     <script>
         var botmanWidget = {
                 frameEndpoint: 'chat.html',
                 introMessage: 'Hola!<br> En que puedo ayudarte?',
                 chatServer : 'php/chat.php',
+                title: 'Centro Cultural SM',
                 placeholderText:'Escriba...',
                 aboutText: 'Hecho por: David | Francisco',
-                bubbleAvatarUrl: '',
+                aboutLink:'http://www.ccsa.edu.sv/index.php',
+                bubbleAvatarUrl: './images/icono.png',
             };
     </script>
+
 </body>
 </html>
